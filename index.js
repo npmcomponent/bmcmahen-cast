@@ -1,10 +1,10 @@
 // Required Modules.
-var Emitter = require('emitter');
-var clone = require('clone');
-var bind = require('bind');
-var type = require('type');
-var OrderedDictionary = require('ordered-dictionary');
-var indexOf = require('indexof');
+var Emitter = require('component-emitter');
+var clone = require('component-clone');
+var bind = require('component-bind');
+var type = require('component-type');
+var OrderedDictionary = require('bmcmahen-ordered-dictionary');
+var indexOf = require('component-indexof');
 
 
 /**
@@ -385,7 +385,7 @@ Block.prototype.toJSON = function(){
 // Our wrapper view, which renders an array of Cast item views.
 // Constructor
 var CastView = function(context){
-  this.translate = require('translate');
+  this.translate = require('component-translate');
   this.context = context;
   this.collection = context.collection;
   this.el = document.createElement('div');

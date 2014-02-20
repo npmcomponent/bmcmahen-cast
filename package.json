@@ -1,0 +1,20 @@
+{
+  "name": "bmcmahen-cast",
+  "description": "Create animated grid layouts given an array of attributes.",
+  "version": "0.5.2",
+  "keywords": [
+    "layout",
+    "grid",
+    "isotope"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-clone": "git://github.com/npmcomponent/component-clone.git",
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "bmcmahen-ordered-dictionary": "git://github.com/npmcomponent/bmcmahen-ordered-dictionary.git",
+    "component-indexof": "git://github.com/npmcomponent/component-indexof.git",
+    "component-translate": "git://github.com/npmcomponent/component-translate.git"
+  },
+  "license": "MIT"
+}

@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [bmcmahen/cast](http://github.com/bmcmahen/cast). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/bmcmahen-cast`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Cast.js
 
 Cast helps you build beautiful, animated grid layouts. Supply an array of attributes, select your layout mode, and receive grid positions for rendering your own views... or let Cast automatically update and render the views for you. It's vanilla Javascript and it's inspired by [Isotope](https://github.com/desandro/isotope).
